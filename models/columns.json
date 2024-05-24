@@ -1,0 +1,1 @@
+{"data_columns": ["pclass", "sex_encoded", "age", "fare", "embarked_encoded", "class_encoded", "who_encoded", "deck_encoded", "embark_town_encoded", "alone"]}
