@@ -1,8 +1,8 @@
 # Titanic Survival Prediction Using Bagging Techniques
-This project aims to predict the onset of diabetes in patients using a Decision Tree Classifier. The classifier is trained on a dataset containing various health metrics of individuals, and it can predict whether a person is likely to have diabetes based on these metrics.
+This project aims to predict the survival of passengers aboard the Titanic using bagging techniques. Three classifier techniques are employed: Decision Tree Classifier, Bagging Classifier, and Random Forest Classifier. The classifiers are trained on a dataset containing various attributes of Titanic passengers, such as age, gender, ticket class, and fare. The goal is to predict whether a passenger survived the Titanic disaster based on these attributes. After training and evaluating the classifiers, the one with the best performance will be selected for deployment.
 
-![]()
-![]()
+![](https://github.com/sarthakkalia/titanic-survival-prediction-Bagging-technique/blob/main/templates/Screenshot%202024-05-24%20215724.png)
+![](https://github.com/sarthakkalia/titanic-survival-prediction-Bagging-technique/blob/main/templates/Screenshot%202024-05-24%20215911.png)
 
 ## Setup :
   #### Clone the Repository:
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 python application.py
 ~~~
 ## Model Evaluation:
-The model uses three classifier techniques. Which one is giving best this one is picked.  
+The model uses three classifier techniques; Out of which the best one is selected.(Random Forest Classifier)  
   Decision Tree Classifier  
   Bagging Classifier  
   Random Forest Classifier
